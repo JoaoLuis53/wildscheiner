@@ -1,0 +1,218 @@
+.header {
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    background-color: #02373f;
+    height:auto;
+    width:100%;
+}
+.header_centerSide {
+    margin:auto;
+    display: flex;
+    max-width:60%;
+    max-height: 220px;
+}
+.navBar {
+    width:100%;
+    height: 45px;
+    background-color: #538188;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 2px  2px #222;
+}
+.navBar a {
+    text-decoration: none;
+    padding:20px;
+    font-size:16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #222;
+    color: #999;
+}
+.navBar a:hover {
+    padding:8px 10px;
+    border-top: 6px solid  #555;
+    border-bottom: 4px solid  #555;
+    box-shadow: 4px 2px 6px  #222;
+    color:#F00;
+    opacity: 0.5;
+}
+.date {
+    width:100%;
+    height: 30px;
+    background-color: #538188;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 2px 2px #222;
+    text-shadow: 1px 1px 2px #222;
+    font-weight: bold;
+    color: #999;
+    font-size:16px;
+}
+
+.headerLogo {
+  flex:1;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo_left {
+    display: none;
+    flex: 1;
+    background-color: #538188;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+    padding: 20px 15px;
+    border-radius: 10px;
+    box-shadow: 4px 2px 10px #222;
+}
+.logo_left h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    color: #999;
+    text-shadow: 1px 1px 2px #222;
+}
+
+.logo_left img {
+    width: 80px;
+    background: linear-gradient(yellow, orange, red, orange);
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px #222;
+}
+.headerSlides{
+    display: flex;
+    align-items: center;
+    flex: 2;
+    width:350px;
+    height:200px;
+}
+
+.headerLogin {
+    flex:1;
+    width:100%;
+    height: 100%;
+}
+
+.logoRight {
+    background-color: #538188;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px 5px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 4px 2px 10px #222;
+}
+.logoRight input {
+   
+    color: #ccc;
+    padding: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid #CCC;
+    background: transparent;
+    outline: 0;
+}
+.logoRight input::placeholder {
+    color: #CCC;
+}
+ .button {
+    border: 0;
+    width: 100%;
+    padding: 8px;
+    background-color: #273b96;
+    box-shadow: 4px 2px 2px #222;
+    color: #999;
+    font-size:14px;
+    font-weight:bold;
+    text-shadow: 1px 1px 2px #222;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.logoRight button:hover {
+    opacity: 0.5;
+}
+
+.logoRight button.cad {
+    width: 100%;
+    padding: 8px;
+    background-color: #0b7a4e;
+    color: #CCC;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 4px 2px 2px #222;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.logoRight a {
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #222;
+    font-weight: bold;
+    color: #999;
+}
+
+.logoRight a:hover {
+    color: #F00;
+}
+.logoImg {
+    background-color: #538188;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 4px 2px 10px #222;
+}
+ .logoImg img {
+    width: 150px;
+    border-radius:10px;
+    box-shadow: 4px 2px 10px #222;
+    margin:0 15px;
+}
+.icons {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    margin:0 ;
+    margin-top:5px;
+    border:1px solid #CCC;
+    border-radius:5px;
+    padding: 4px 0;
+    color: #999;
+    font-size:14px;
+    font-weight:bold;
+    text-shadow: 1px 1px 2px #222;
+}
+.icons p {
+    margin:0;
+    padding:0;
+}
+ .icon {
+    color: #0F0;
+    width:25px;
+    height:25px;
+    margin-right:10px;
+}
+
+

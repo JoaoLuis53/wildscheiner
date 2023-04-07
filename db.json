@@ -1,0 +1,26 @@
+{
+  "partners": [
+    {
+      "name": "Joao Luis Borges Lima",
+      "surname": "Gordo",
+      "email": "gordo@hotmail.com",
+      "password": "104038",
+      "motorbike": "nx 480",
+      "avatar": "../assets/images/87.jpg",
+      "description": "este é um depoimento de teste",
+      "photo": "../assets/images/50.jpg",
+      "id": 1
+    },
+    {
+      "name": "Victor Scheidt Lima ",
+      "surname": "Vitinho",
+      "email": "vitinho@gmail.com",
+      "password": "2014",
+      "motorbike": "Crf 350",
+      "avatar": "../assets/images/8.jpg",
+      "description": "Quero dizer que estou muito empolgado por participar deste grupo de trilheiros....",
+      "photo": "../assets/images/50.jpg",
+      "id": 2
+    }
+  ]
+}

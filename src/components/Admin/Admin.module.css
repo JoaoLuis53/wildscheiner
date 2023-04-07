@@ -1,0 +1,20 @@
+.containers {
+    background-color: #CCC;
+    max-width:100%;
+    margin: 15px 0;
+    padding: 0 100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border: 2px solid #999;
+    border-radius: 5px;
+}
+.containers h1 {
+    color: #777;
+    padding: 10px 50px;
+    border-radius:5px;
+}
+
+
+
